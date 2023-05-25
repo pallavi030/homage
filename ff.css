@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+body  {
+    background-image: url('bro.jpg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 50s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px;background-size:2750px;}
+
+}
+
+
+
+.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(75, 142, 250, 0.349);
+  border-radius: 3px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  size: 50px;
+
+}
+.cent {
+  box-align: center;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  background-color: rgba(248, 253, 255, 0.879);
+  width: 600px;
+  height: 400px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+   
+}
+.centi {
+  align: center;
+  position: absolute;
+  top: 10%;
+  left: 45%;
+}
+p{
+  text-align: center;
+  position:absolute;
+  top: 200px;
+  bottom: 5px;
+  left: 270px;
+  font-size: 50px;
+  font-family:sans-serif;
+  color: rgba(250, 235, 215, 0.674);
+}
+#but{
+  background-color: #ffffff;
+  position: absolute;
+  left: 1090px;
+  border-radius: 10%;
+  padding: 10px 10px;
+  font-size: 15spx;
+  border: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 100;
+}
+.center h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+}
+#but:hover {
+  background-color: #555;
+}
+#loo {
+  position: absolute;
+  top: -15px;
+  left: -10px;
+  width: 8%;
+  height: 15%;
+}
+#about{
+  font-size:16px;
+  font-family:sans-serif;
+  position: absolute;
+  top: 14px;
+  color: #fff;
+  left:100px;
+}
+#but2{
+  position: absolute;
+  bottom: 130px;
+  left: 550px;
+  font-size: 30px;
+  box-shadow: 0 0 10px #fff;
+  background-color: #fbf7f7;
+  color: #0c0c0c;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#but2:hover{
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d4ced1, 0 0 40px #9bedb3,
+      0 0 50px #f5eef1, 0 0 60px #cecacc, 0 0 70px #f9f3f6;
+  }
+  
+  to {
+    box-shadow: 0 0 20px #fff, 0 0 30px #f0eaed, 0 0 40px #89c7ee, 
+      0 0 50px #f3f0f2, 
+      0
+  }
+}
+/* #img {
+  position: absolute;
+  left: 45px;
+  top: 10px;
+  height: 10px;
+} */
+.center h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+}
+#but3{
+  background-color: #ffffff00;
+  position: absolute;
+  left: 1150px;
+  border-radius: 10%;
+  padding: 10px 10px;
+  font-size: 15spx;
+  border: 1px solid #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 100;
+}
+#but:hover {
+  background-color: #555;
+}
+.top{
+  position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    border: 0px solid  ;
+    gap: 30px;
+    padding-left: 110px;
+    font-size: 17px;
+    top:25px;
+    text-decoration: underline ;
+    color: #fff;
+    
+}

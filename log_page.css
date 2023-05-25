@@ -1,0 +1,66 @@
+.box {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #95b9c587;
+  }
+  body{
+    background-color: #95b9c573;
+  }
+  #loo {
+    position: relative;
+    top: -10px;
+    left: 20px;
+    width: 7%;
+    height: 170%;
+  }
+  #heading{
+    position: relative;
+    font-size: 20px;
+    font-family: sans-serif;
+    top:-80px;
+    left: 500px;
+    font-weight: 100;
+  }
+  #email{
+    position: fixed;
+    top:100px;
+    left: 430px;
+    width: 30%;
+    height: 8%;
+    border: 2px solid rgb(236, 173, 37);;
+    background-color: #eef2f3e2;
+    border-radius: 10px;
+  }
+  #pass{
+    position: fixed;
+    top:160px;
+    left: 430px;
+    width: 30%;
+    height: 8%;
+    border: 2px solid rgb(236, 173, 37);
+    background-color: #eef2f3e2;
+    border-radius: 10px;
+  }
+  input[type="email"]::placeholder {
+    color: #aaa;
+  }
+  input[type="password"]::placeholder {
+    color: #aaa;
+  }
+  #log{
+    background-color: #1414cc;
+    position: absolute;
+    left: 430px;
+    top:230px;
+    width: 30%;
+    height: 8%;
+    border-radius: 10px;
+    font-size: 15spx;
+    border: none;
+    box-shadow: #1414cc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 100;
+  }
